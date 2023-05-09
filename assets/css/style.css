@@ -8,14 +8,14 @@ body .landing {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(192, 192, 192);
+  background-color: #373e98;
 }
 body .landing h1 {
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translateX(-50%);
-  border: 2px solid grey;
+  border: 2px solid #f16775;
   border-radius: 15px;
   margin: 10px;
   padding: 25px;
@@ -23,29 +23,17 @@ body .landing h1 {
   text-align: center;
   font-size: 30px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  -webkit-animation: ease-in-out change 5s infinite;
-          animation: ease-in-out change 5s infinite;
-}
-@-webkit-keyframes change {
-  0% {
-    background-color: rgb(160, 160, 160);
-  }
-  50% {
-    background-color: rgb(208, 208, 208);
-  }
-  100% {
-    background-color: rgb(160, 160, 160);
-  }
+  animation: ease-in-out change 5s infinite;
 }
 @keyframes change {
   0% {
-    background-color: rgb(160, 160, 160);
+    background-color: #FEE36E;
   }
   50% {
-    background-color: rgb(208, 208, 208);
+    background-color: #ceb92c;
   }
   100% {
-    background-color: rgb(160, 160, 160);
+    background-color: #FEE36E;
   }
 }
 body .landing .text {

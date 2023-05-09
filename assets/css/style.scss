@@ -10,14 +10,14 @@ body {
         position: relative;
         width: 100vw;
         height: 100vh;
-        background-color: rgb(192, 192, 192);
+        background-color: #373e98;
 
         h1 {
             position: absolute;
             top: 30%;
             left: 50%;
             transform: translateX(-50%);
-            border: 2px solid grey;
+            border: 2px solid #f16775;
             border-radius: 15px;
             margin: 10px;
             padding: 25px;
@@ -30,15 +30,15 @@ body {
 
             @keyframes change {
                 0% {
-                    background-color: rgb(160, 160, 160);
+                    background-color: #FEE36E;
                 }
 
                 50% {
-                    background-color: rgb(208, 208, 208);
+                    background-color: #ceb92c;
                 }
 
                 100% {
-                    background-color: rgb(160, 160, 160);
+                    background-color: #FEE36E;
                 }
             }
 
