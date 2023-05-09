@@ -51,13 +51,13 @@ body {
             top: 45%;
             left: 50%;
             transform: translateX(-50%);
+            color: white;
 
             .link {
-                color: black;
 
                 &:hover {
                     cursor: pointer;
-                    color: grey;
+                    color: #f16775;
                     text-decoration: none;
                 }
             }

@@ -43,13 +43,11 @@ body .landing .text {
   top: 45%;
   left: 50%;
   transform: translateX(-50%);
-}
-body .landing .text .link {
-  color: black;
+  color: white;
 }
 body .landing .text .link:hover {
   cursor: pointer;
-  color: grey;
+  color: #f16775;
   text-decoration: none;
 }
 body .projects {
