@@ -8,7 +8,6 @@
     <title>Yann Millet</title>
     <link rel="icon" href="assets/media/favicon.png">
     <link rel="stylesheet" href="assets/css/style_homepage.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -52,29 +51,44 @@
         </div>
     </section>
 
-    <section class="footer">
-        <div class="credits">Photo
-            <a href="https://www.instagram.com/ukiyosa/" target="_blank">Ukiyosa</a>
-        </div>
-        <div class="reseaux">
-            <a href="https://www.linkedin.com/in/yannmillet" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://www.youtube.com/" target="_blank">
-                <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://github.com/milletyann" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.kaggle.com/nemosalah" target="_blank">
-                <i class="fab fa-kaggle"></i>
-            </a>
-            <a href="https://www.hackerrank.com/milletyann" target="_blank">
-                <i class="fab fa-hackerrank"></i>
-            </a>
-        </div>
-    </section>
-
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 
 </html>
