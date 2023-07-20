@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 body {
@@ -35,7 +34,8 @@ a {
     font-family: "Open sans", sans-serif;
 }
 
-.landing {
+.cv {
+    height: 80px;
     font-family: "Open sans", sans-serif;
 }
 
@@ -54,7 +54,7 @@ a {
             align-items: center;
             flex-direction: row;
             gap: 30px;
-            z-index: 0;
+            z-index: 1;
 
             .logo-container {
                 height: 80px;
@@ -105,16 +105,16 @@ a {
 
         }
 
-        .landing {
+        .cv {
             position: absolute;
             top: 160px;
-            z-index: -1;
+            z-index: 0;
 
             width: 100%;
             height: calc(100vh - 160px);
             text-align: center;
 
-            .container {
+            .wrapper {
                 position: relative;
                 width: 1500px;
                 max-width: 100vw;
@@ -123,7 +123,7 @@ a {
                 display: inline-block;
                 vertical-align: middle;
 
-                .utile {
+                .container {
                     position: absolute;
                     z-index: 1;
 
@@ -134,86 +134,14 @@ a {
                     display: flex;
                     justify-content: center;
 
-                    .left {
-                        width: 20%;
+                    align-items: center;
 
-                        .pp-pres {
-
-                            height: 100%;
-
-                            img {
-                                width: 100%;
-                                object-fit: contain;
-                                object-position: top left;
-                                box-shadow: 2px 2px 5px 1px rgb(72, 72, 72);
-
-                                position: relative;
-                                top: 50px;
-                                left: 0;
-
-
-                            }
-
-                            .legende {
-                                width: 95%;
-                                padding: 20px;
-                                background-color: rgba(187, 187, 187, .6);
-                                border-radius: 15px;
-                                box-shadow: 3px 3px 4px 2px rgb(72, 72, 72);
-                                position: relative;
-                                top: 50px;
-
-                                margin: 2.5%;
-                                padding-top: 10px;
-
-                                p {
-                                    margin: 5px;
-                                    line-height: 1.5;
-                                    text-align: center;
-
-                                    &:first-child {
-                                        font-size: 24px;
-                                    }
-
-                                    &:nth-child(2) {
-                                        font-size: 18px;
-                                    }
-
-                                    &:nth-child(3) {
-                                        font-size: 16px;
-                                        font-style: italic;
-                                    }
-                                }
-                            }
-                        }
+                    p {
+                        transform: translateY(-50px);
                     }
 
-                    .right {
-                        width: 60%;
-                        margin-left: 5%;
-                        margin-top: 50px;
-                        margin-bottom: 70px;
-
-                        .shadow-wrapper {
-                            margin-top: 10px;
-                            margin-left: 40px;
-                            text-align: left;
-                            background-color: rgba(63, 63, 63, 0.3);
-
-                            .wrapper {
-                                padding: 10px;
-
-                                .item {
-                                    margin-bottom: 30px;
-
-                                    p {
-                                        &:first-child {
-                                            font-style: italic;
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                    a {
+                        font-size: 30px;
                     }
                 }
             }
