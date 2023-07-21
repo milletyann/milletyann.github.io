@@ -161,7 +161,7 @@ a .fab {
     margin-bottom: 70px;
     padding: 30px;
     width: 75%;
-    background-color: rgba(168, 168, 146, 0.3);
+    background-color: rgba(168, 168, 146, 0.75);
   }
   body .projets .wrapper .container .presentation p {
     text-align: left;
@@ -174,7 +174,7 @@ a .fab {
     padding: 40px;
     margin-bottom: 100px;
     text-align: left;
-    background-color: rgba(182, 182, 167, 0.73);
+    background-color: rgba(182, 182, 167, 0.75);
     border-radius: 10px;
     display: flex;
   }
@@ -255,18 +255,4 @@ a .fab {
   body .footer .reseaux a {
     font-size: 30px;
   }
-}
-#alexandrov1 .liens span,
-#dieu_joue_des .liens span,
-#machine_apprend_lecun .liens span,
-#contre_exemple .liens span,
-#proba_stats_capes .liens span,
-#analyse_fonctionnelle .liens span,
-#fonctions_var_reelle_bourbaki .liens span,
-#maths_cracks_term .liens span,
-#maths_cracks_premiere .liens span,
-#algebre_homologique_bourbaki .liens span,
-#machine_learning_python .liens span {
-  pointer-events: none;
-  text-decoration: line-through;
 }/*# sourceMappingURL=style_lectures.css.map */

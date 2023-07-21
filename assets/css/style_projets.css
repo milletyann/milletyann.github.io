@@ -161,7 +161,7 @@ a .fab {
     margin-bottom: 70px;
     padding: 30px;
     width: 75%;
-    background-color: rgba(168, 168, 146, 0.3);
+    background-color: rgba(168, 168, 146, 0.75);
   }
   body .projets .wrapper .container .presentation p {
     text-align: left;
@@ -174,7 +174,7 @@ a .fab {
     padding: 40px;
     margin-bottom: 100px;
     text-align: left;
-    background-color: rgba(182, 182, 167, 0.73);
+    background-color: rgba(182, 182, 167, 0.75);
     border-radius: 10px;
     display: flex;
   }

@@ -141,7 +141,7 @@ a:hover {
   body .landing .container .utile .left .pp-pres .legende {
     width: 95%;
     padding: 20px;
-    background-color: rgba(187, 187, 187, 0.6);
+    background-color: rgba(187, 187, 187, 0.7);
     border-radius: 15px;
     box-shadow: 3px 3px 4px 2px rgb(72, 72, 72);
     position: relative;
@@ -174,10 +174,10 @@ a:hover {
     margin-top: 10px;
     margin-left: 40px;
     text-align: left;
-    background-color: rgba(63, 63, 63, 0.3);
+    background-color: rgba(63, 63, 63, 0.6);
   }
   body .landing .container .utile .right .shadow-wrapper .wrapper {
-    padding: 10px;
+    padding: 25px;
   }
   body .landing .container .utile .right .shadow-wrapper .wrapper .item {
     margin-bottom: 30px;
