@@ -8,7 +8,7 @@
 body {
   height: 100vh;
   width: 100vw;
-  background: url("../media/test_background.jpg");
+  background: url("../media/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -93,6 +93,12 @@ a .fab {
     justify-content: center;
     align-items: center;
     margin: 50px;
+  }
+  body .navbar .logo-container img {
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
   }
   body .navbar .onglets-container {
     align-items: center;
@@ -246,4 +252,28 @@ a .fab {
   body .footer .reseaux a {
     font-size: 30px;
   }
+}
+#nerf .liens span,
+#deterpion .liens span,
+#faceswap-witcher .liens span {
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
+#opti-menage .liens span:nth-child(2), #opti-menage .liens span:nth-child(3) {
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
+#cassiopee .liens span {
+  width: 33%;
+}
+#cassiopee .liens span:nth-child(3) {
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
+#tipe .liens span:nth-child(2), #tipe .liens span:nth-child(3) {
+  pointer-events: none;
+  text-decoration: line-through;
 }/*# sourceMappingURL=style_projets.css.map */
