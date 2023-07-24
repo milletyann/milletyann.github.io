@@ -253,8 +253,16 @@ a .fab {
     font-size: 30px;
   }
 }
+#collection .liens span {
+  width: 100%;
+}
+
+#deterpion .liens span:nth-child(2), #deterpion .liens span:nth-child(3) {
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
 #nerf .liens span,
-#deterpion .liens span,
 #faceswap-witcher .liens span {
   pointer-events: none;
   text-decoration: line-through;
