@@ -281,7 +281,7 @@ a .fab {
   text-decoration: line-through;
 }
 
-#tipe .liens span:nth-child(2), #tipe .liens span:nth-child(3) {
+#tipe .liens span:nth-child(3) {
   pointer-events: none;
   text-decoration: line-through;
 }/*# sourceMappingURL=style_projets.css.map */
